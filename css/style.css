@@ -1,0 +1,104 @@
+/* === General Page === */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('../images/aura-bg.png') center center / cover no-repeat fixed;
+  color: #f3e9ff;
+  text-align: center;
+  animation: auraZoom 15s ease-in-out infinite alternate;
+  background-blend-mode: overlay;
+  transform-origin: center;
+}
+
+/* Zoom in and out animation */
+@keyframes auraZoom {
+  0% {
+    background-size: 100%;
+    filter: brightness(0.9) hue-rotate(0deg);
+  }
+  50% {
+    background-size: 110%;
+    filter: brightness(1.1) hue-rotate(20deg);
+  }
+  100% {
+    background-size: 100%;
+    filter: brightness(0.9) hue-rotate(-20deg);
+  }
+}
+
+/* === Navbar === */
+nav {
+  background: linear-gradient(90deg, #200014, #400040, #200014);
+  padding: 15px 0;
+  box-shadow: 0 2px 8px rgba(128, 0, 128, 0.4);
+  border-bottom: 1px solid #511252;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 25px;
+}
+
+nav a {
+  color: #f3e9ff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff4d6d; /* glowing red hover */
+  text-shadow: 0 0 10px #ff4d6d, 0 0 20px #a200ff;
+}
+
+/* === Home Page === */
+main.home {
+  padding: 100px 20px;
+}
+
+h1 {
+  font-size: 52px;
+  color: #ff4d6d; /* blood-red title */
+  text-shadow: 0 0 15px #a200ff;
+}
+
+p {
+  font-size: 20px;
+  color: #d4b8ff;
+}
+
+/* === Button === */
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 32px;
+  background: linear-gradient(135deg, #6a0dad, #a200ff, #ff005c);
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  box-shadow: 0 0 15px rgba(162, 0, 255, 0.5);
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(255, 0, 92, 0.7);
+}
+
+/* === Section dividers or footer (optional) === */
+footer {
+  background: #1a0010;
+  color: #b89cff;
+  padding: 15px 0;
+  font-size: 14px;
+  margin-top: 50px;
+}
