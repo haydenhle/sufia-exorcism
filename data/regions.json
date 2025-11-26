@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Pride",
+    "short": "PR",
+    "x": 45,
+    "y": 30,
+    "description": "A cyberpunk metropolis of contracts and technology-powered demon summoning."
+  },
+  {
+    "name": "Gluttony",
+    "short": "GL",
+    "x": 65,
+    "y": 55,
+    "description": "A shrine-filled city where humans coexist with demons through ritual sacrifice."
+  },
+  {
+    "name": "Wrath",
+    "short": "WR",
+    "x": 25,
+    "y": 70,
+    "description": "A ruined wasteland of eternal combat, where humans consume demon blood for power."
+  }
+]
