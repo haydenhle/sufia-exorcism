@@ -1,15 +1,26 @@
 /* === General Page === */
-body 
-{
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: url('../images/aura-bg.png') center center / cover no-repeat fixed;
     color: #f3e9ff;
     text-align: center;
+
+    /* Background */
+    background: url('../images/aura-bg.png') center center / cover no-repeat fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* Animation & stability */
     animation: auraZoom 15s ease-in-out infinite alternate;
     background-blend-mode: overlay;
     transform-origin: center;
 }
+
 
 /* === Zoom animation === */
 @keyframes auraZoom 
@@ -77,6 +88,61 @@ p
 {
     font-size: 20px;
     color: #d4b8ff;
+}
+
+/* === Home Hero Section (box in middle) === */
+.home {
+    height: 100vh; /* entire page = one viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* space between hero + footer */
+    overflow: hidden;
+}
+.hero {
+    flex: 1;
+    display: flex;
+    align-items: flex-start; /* moves content higher */
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-top: 60px; /* fine-tune this to control exact height */
+}
+.hero-content {
+    z-index: 1;
+    max-width: 700px;
+    padding: 40px;
+    background: rgba(20, 0, 30, 0.65);
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(162, 0, 255, 0.25);
+}
+.hero h1 {
+    font-size: 64px;
+    color: #ff4d6d;
+    text-shadow: 0 0 20px #a200ff;
+    margin-bottom: 15px;
+}
+.tagline {
+    font-size: 20px;
+    color: #e0d0ff;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+/* footer in home page */
+.home-footer {
+    text-align: center;
+    padding: 12px 0;
+    margin: 0; /* removes bottom gap */
+    background: rgba(20, 0, 30, 0.7);
+    color: #b89cff;
+    font-size: 14px;
+    opacity: 0.9;
+    position: relative;
+    bottom: 0;
 }
 
 /* === Button === */
@@ -228,4 +294,61 @@ footer
     color: #ff4d6d;
     font-weight: bold;
     text-shadow: 0 0 5px #a200ff;
+}
+
+/* === News Page === */
+.news-page {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.news-intro {
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    color: #c6b3ff;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.news-card {
+    background: rgba(30, 0, 40, 0.85);
+    border: 1px solid #511252;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(160, 0, 255, 0.2);
+    padding: 25px;
+    text-align: left;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(255, 0, 92, 0.4);
+}
+
+.news-card h2 {
+    color: #ff4d6d;
+    margin-top: 0;
+    font-size: 22px;
+    text-shadow: 0 0 8px #a200ff;
+}
+
+.news-meta {
+    color: #b89cff;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.news-summary {
+    color: #e0d0ff;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
 }

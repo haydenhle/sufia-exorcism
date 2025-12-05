@@ -1,23 +1,51 @@
 [
-  {
-    "name": "Pride",
-    "short": "PR",
-    "x": 45,
-    "y": 30,
-    "description": "A cyberpunk metropolis of contracts and technology-powered demon summoning."
-  },
-  {
-    "name": "Gluttony",
-    "short": "GL",
-    "x": 65,
-    "y": 55,
-    "description": "A shrine-filled city where humans coexist with demons through ritual sacrifice."
-  },
-  {
-    "name": "Wrath",
-    "short": "WR",
-    "x": 25,
-    "y": 70,
-    "description": "A ruined wasteland of eternal combat, where humans consume demon blood for power."
-  }
+    {
+        "name": "Pride",
+        "short": "PR",
+        "x": 41,
+        "y": 19,
+        "description": "A gleaming cyberpunk metropolis where technology and demon contracts intertwine. Citizens wield cybernetic power to summon and control demons as status symbols."
+    },
+    {
+        "name": "Gluttony",
+        "short": "GL",
+        "x": 75,
+        "y": 80,
+        "description": "A ritualistic shrine city that maintains peace with demons through sacrifice. Humans live under strict laws, offering tributes during every full moon to keep harmony."
+    },
+    {
+        "name": "Sloth",
+        "short": "SL",
+        "x": 20,
+        "y": 88,
+        "description": "A false paradise ruled by elegant demons who keep humans as pampered pets. Comfort is abundant, but freedom is an illusion under gilded servitude."
+    },
+    {
+        "name": "Wrath",
+        "short": "WR",
+        "x": 15,
+        "y": 50,
+        "description": "A scorched wasteland of eternal conflict. The strong consume demon blood to gain strength, fighting endlessly to survive in a world where power defines worth."
+    },
+    {
+        "name": "Envy",
+        "short": "EN",
+        "x": 20,
+        "y": 8,
+        "description": "A frozen frontier divided between native shamans and militaristic researchers. Ancient rituals and human experimentation clash in a battle for forbidden knowledge."
+    },
+    {
+        "name": "Lust",
+        "short": "LU",
+        "x": 85,
+        "y": 25,
+        "description": "A gothic kingdom of witches and sorcerers who embrace demons as divine partners. Power and desire merge into dark elegance where blood magic is revered."
+    },
+    {
+        "name": "Greed",
+        "short": "GR",
+        "x": 70,
+        "y": 45,
+        "description": "Coming soon..."
+    }
 ]

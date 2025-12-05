@@ -1,16 +1,72 @@
 [
-  {
-    "id": 1,
-    "title": "Welcome to Sufia",
-    "topic": "Announcement",
-    "date": "2025-11-22",
-    "summary": "The concept of Sufia Exorcism begins. Explore the seven covens and their lore."
-  },
-  {
-    "id": 2,
-    "title": "Gameplay Preview Released",
-    "topic": "Gameplay",
-    "date": "2025-11-23",
-    "summary": "Our first look at the elemental combat system and demon exorcism mechanics."
-  }
+    {
+        "id": 1,
+        "title": "Project Sufia Announced",
+        "topic": "Development Update",
+        "date": "2025-03-01",
+        "summary": "We’re thrilled to officially announce Sufia Exorcism, a post-apocalyptic fantasy RPG set in a demon-infested world. Players will explore seven unique Covens—each reflecting a deadly sin and its cultural aftermath."
+    },
+    {
+        "id": 2,
+        "title": "Worldbuilding Phase Complete",
+        "topic": "Lore Development",
+        "date": "2025-04-10",
+        "summary": "The core lore and geography of Sufia are complete. From the frozen isolation of Envy to the neon-lit cyberpunk streets of Pride, every Coven now has a unique design direction and cultural tone."
+    },
+    {
+        "id": 3,
+        "title": "First Look: Interactive World Map",
+        "topic": "Gameplay Feature",
+        "date": "2025-04-25",
+        "summary": "We’ve implemented the first version of the interactive world map! Players can now click on each Coven to learn about its lore, population, and environment. Visual markers for all seven regions have been added."
+    },
+    {
+        "id": 4,
+        "title": "Playable Demo Under Construction",
+        "topic": "Development Progress",
+        "date": "2025-05-08",
+        "summary": "Our team is working on an early demo featuring exploration through the Wrath and Pride regions. Core mechanics—movement, dialogue, and exorcism combat—are currently being integrated."
+    },
+    {
+        "id": 5,
+        "title": "Visual Update: Dynamic Aura Effects",
+        "topic": "Art & UI",
+        "date": "2025-05-21",
+        "summary": "We’ve added dynamic red and purple aura animations across the site and in-game interface to enhance the supernatural aesthetic of Sufia. Expect more ambient visuals and environmental polish soon."
+    },
+    {
+        "id": 6,
+        "title": "New Region Reveal: Sloth",
+        "topic": "World Update",
+        "date": "2025-06-02",
+        "summary": "Sloth has entered development! This region will explore themes of comfort, control, and captivity, featuring lush interiors and a hauntingly serene soundtrack. Early concept art is now available on our media page."
+    },
+    {
+        "id": 7,
+        "title": "Combat System Alpha Testing Begins",
+        "topic": "Gameplay Development",
+        "date": "2025-06-15",
+        "summary": "Internal testing for the exorcism combat system has begun. Combat focuses on timing-based spell execution, mana resonance, and moral alignment choices that influence your relationships with demons."
+    },
+    {
+        "id": 8,
+        "title": "Coven of Lust Demo Environment Released",
+        "topic": "Content Drop",
+        "date": "2025-07-10",
+        "summary": "The Lust region demo is now live for internal testing. Expect gothic architecture, blood magic mechanics, and hybrid NPCs. This update introduces visual storytelling through dynamic lighting."
+    },
+    {
+        "id": 9,
+        "title": "Performance and UI Overhaul",
+        "topic": "Patch Update",
+        "date": "2025-07-25",
+        "summary": "We’ve optimized the site and prototype UI to improve performance. The new layout includes restructured navigation, smoother transitions, and improved font readability for lore-heavy sections."
+    },
+    {
+        "id": 10,
+        "title": "Coven of Greed Teaser",
+        "topic": "Upcoming Content",
+        "date": "2025-08-05",
+        "summary": "The seventh and final region—Greed—is currently in pre-production. Expect crystal-based mana systems, a focus on resource corruption, and high-risk, high-reward gameplay. Stay tuned for more details!"
+    }
 ]
