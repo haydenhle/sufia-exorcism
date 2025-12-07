@@ -16,17 +16,23 @@
         <h1>Characters</h1>
         <p >Learn about the characters of <strong>Sufia Exorcism</strong> who will aid you in your adventures!</p>
 
-        <!-- news article blocks -->
+        <!-- character blocks -->
         <div class="characters-container">
             <?php foreach ($articles as $a): ?>
-                <!-- news cards -->
-                <div class="character-card">
-                    <!-- htmlspecialchars() makes text safe to put in html -->
-                    <h2><?= htmlspecialchars($a['name']) ?></h2>
-                    <p>Region: <?= htmlspecialchars($a['region']) ?></p>
-                </div>
+            <?php 
+                $name = htmlspecialchars($a['name']);
+                $urlName = urlencode($a['name']); 
+            ?>
+        
+                <a class="character-card-link" href="character.php?name=<?= urlencode($a['name']) ?>">
+                    <div class="character-card">
+                        <h2><?= $name ?></h2>
+                        <p>Region: <?= htmlspecialchars($a['region']) ?></p>
+                    </div>
+                </a>
             <?php endforeach; ?>
         </div>
+
     </main>
     <!-- footer -->
     <footer class="home-footer">

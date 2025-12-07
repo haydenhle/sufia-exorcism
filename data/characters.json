@@ -3,84 +3,84 @@
    "name": "Xochitl",
    "region": "Pride",
    "element": "placeholder",
-   "bio":"<p>A newbie demon hunter living in the Pride Region. She doesn't have any goals for the future and treats demon hunting as simply a side hustle.<p>",
+   "bio":"A newbie demon hunter living in the Pride Region. She doesn't have any goals for the future and treats demon hunting as simply a side hustle.",
    "image": "images/char/xochitl.png"
  },
  {
    "name": "Glitch",
    "region": "Pride",
    "element": "placeholder",
-   "bio":"<p>A veteran demon hunter living in the Pride Region. He has skills in creating technology capable of controlling demons.<p>",
+   "bio":"A veteran demon hunter living in the Pride Region. He has skills in creating technology capable of controlling demons.",
    "image": "images/char/glitch.png"
  },
  {
    "name": "Hana",
    "region": "Gluttony",
    "element": "placeholder",
-   "bio":"<p>A young shrine maiden working at the shrines overseeing the monthly tributes. Her responsibilities include ensuring the tributes’ 'cleanliness' before each full moon.<p>",
+   "bio":"A young shrine maiden working at the shrines overseeing the monthly tributes. Her responsibilities include ensuring the tributes’ 'cleanliness' before each full moon.",
    "image": "images/char/hana.png"
  },
  {
    "name": "Akito",
    "region": "Gluttony",
    "element": "placeholder",
-   "bio":"<p>A courier who practices archery to send messages in the region. He secretly wants to dismantle the tribute system and rebel against the demons.<p>",
+   "bio":"A courier who practices archery to send messages in the region. He secretly wants to dismantle the tribute system and rebel against the demons.",
    "image": "images/char/akito.png"
  },
  {
    "name": "Freesia",
    "region": "Sloth",
    "element": "placeholder",
-   "bio":"<p>A obedient girl with a love for fashion.<p>",
+   "bio":"A obedient girl with a love for fashion.",
    "image": "images/char/freesia.png"
  },
  {
    "name": "Dash",
    "region": "Sloth",
    "element": "placeholder",
-   "bio":"<p>A boy bred with rabbit ears. Energetic and tends to run off often, much to the dismay of his guardian demon.<p>",
+   "bio":"A boy bred with rabbit ears. Energetic and tends to run off often, much to the dismay of his guardian demon.",
    "image": "images/char/dash.png"
  },
  {
    "name": "Linnea",
    "region": "Envy",
    "element": "placeholder",
-   "bio":"<p>A girl with a shaman lineage. She is proud to be descendant of the first native chief.<p>",
+   "bio":"A girl with a shaman lineage. She is proud to be descendant of the first native chief.",
    "image": "images/char/linnea.png"
  },
  {
    "name": "Kai",
    "region": "Envy",
    "element": "placeholder",
-   "bio":"<p>A shy boy who isn’t confident in his skills. Likes animals.<p>",
+   "bio":"A shy boy who isn’t confident in his skills. Likes animals.",
    "image": "images/char/kai.png"
  },
  {
    "name": "Odin",
    "region": "Wrath",
    "element": "placeholder",
-   "bio":"<p>Contrary to the hostile environment of the Wrath region, he takes care of children who lost their homes from the demons.<p>",
+   "bio":"Contrary to the hostile environment of the Wrath region, he takes care of children who lost their homes from the demons.",
    "image": "images/char/odin.png"
  },
  {
    "name": "Lime",
    "region": "Wrath",
    "element": "placeholder",
-   "bio":"<p>A short-tempered, idealistic girl who strives to be the strongest <p>",
+   "bio":"A short-tempered, idealistic girl who strives to be the strongest ",
    "image": "images/char/astrid.png"
  },
  {
    "name": "Epsilon",
    "region": "Lust",
    "element": "placeholder",
-   "bio":"<p>A half demon-half human professor studying the supernatural and is well respected among his students.<p>",
+   "bio":"A half demon-half human professor studying the supernatural and is well respected among his students.",
    "image": "images/char/epsilon.png"
  },
  {
    "name": "Rose",
    "region": "Lust",
    "element": "placeholder",
-   "bio":"<p>A witch who is extremely devout to demons to the point of blind worship.<p>",
+   "bio":"A witch who is extremely devout to demons to the point of blind worship.",
    "image": "images/char/rose.png"
  }
  ]
