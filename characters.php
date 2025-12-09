@@ -1,11 +1,11 @@
 <?php
-    $articles = json_decode(file_get_contents('data/characters.json'), true);
+    $regions = json_decode(file_get_contents('data/regions.json'), true);
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CHARACTERS | Sufia Exorcism</title>
+    <title>Characters | Sufia Exorcism</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -17,26 +17,23 @@
         <p >Learn about the characters of <strong>Sufia Exorcism</strong> who will aid you in your adventures!</p>
 
         <!-- character blocks -->
+        <h2>Select a Region</h2>
         <div class="characters-container">
-            <?php foreach ($articles as $a): ?>
+            <?php foreach ($regions as $r): ?>
             <?php 
-                $name = htmlspecialchars($a['name']);
-                $urlName = urlencode($a['name']); 
+                $name = htmlspecialchars($r['short']);
+                $urlName = urlencode($r['short']); 
             ?>
         
-                <a class="character-card-link" href="character.php?name=<?= urlencode($a['name']) ?>">
-                    <div class="character-card">
-                        <h2><?= $name ?></h2>
-                        <p>Region: <?= htmlspecialchars($a['region']) ?></p>
+                <a class="character-card-link" href="character.php?name=<?= urlencode($r['short']) ?>">
+                    <div>
+                        <h2><?= htmlspecialchars($r['name']) ?></h2>
+                        <p>Embodies: <?= htmlspecialchars($r['short']) ?></p>
+                        <p><?= htmlspecialchars($r['description']) ?></p>
                     </div>
                 </a>
             <?php endforeach; ?>
         </div>
-
     </main>
-    <!-- footer -->
-    <footer class="home-footer">
-        <p>© 2025 Sufia Exorcism — A Game Concept by Hayden Le & Dorothy Xu & Jason Zhou</p>
-    </footer>
 </body>
 </html>

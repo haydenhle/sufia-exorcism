@@ -1,49 +1,49 @@
 [
     {
-        "name": "Pride",
-        "short": "PR",
+        "name": "Superbia",
+        "short": "Pride",
         "x": 41,
         "y": 19,
         "description": "A gleaming cyberpunk metropolis where technology and demon contracts intertwine. Citizens wield cybernetic power to summon and control demons as status symbols."
     },
     {
-        "name": "Gluttony",
-        "short": "GL",
+        "name": "Gula",
+        "short": "Gluttony",
         "x": 75,
         "y": 80,
         "description": "A ritualistic shrine city that maintains peace with demons through sacrifice. Humans live under strict laws, offering tributes during every full moon to keep harmony."
     },
     {
-        "name": "Sloth",
-        "short": "SL",
+        "name": "Acedia",
+        "short": "Sloth",
         "x": 20,
         "y": 88,
         "description": "A false paradise ruled by elegant demons who keep humans as pampered pets. Comfort is abundant, but freedom is an illusion under gilded servitude."
     },
     {
-        "name": "Wrath",
-        "short": "WR",
+        "name": "Ira",
+        "short": "Wrath",
         "x": 15,
         "y": 50,
         "description": "A scorched wasteland of eternal conflict. The strong consume demon blood to gain strength, fighting endlessly to survive in a world where power defines worth."
     },
     {
-        "name": "Envy",
-        "short": "EN",
+        "name": "Invidia",
+        "short": "Envy",
         "x": 20,
         "y": 8,
         "description": "A frozen frontier divided between native shamans and militaristic researchers. Ancient rituals and human experimentation clash in a battle for forbidden knowledge."
     },
     {
-        "name": "Lust",
-        "short": "LU",
+        "name": "Luxuria",
+        "short": "Lust",
         "x": 85,
         "y": 25,
         "description": "A gothic kingdom of witches and sorcerers who embrace demons as divine partners. Power and desire merge into dark elegance where blood magic is revered."
     },
     {
-        "name": "Greed",
-        "short": "GR",
+        "name": "Avaritia",
+        "short": "Greed",
         "x": 70,
         "y": 45,
         "description": "Coming soon..."

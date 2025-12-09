@@ -3,14 +3,14 @@
    "name": "Xochitl",
    "region": "Pride",
    "element": "placeholder",
-   "bio":"A newbie demon hunter living in the Pride Region. She doesn't have any goals for the future and treats demon hunting as simply a side hustle.",
+   "bio":"A newbie demon hunter living in Superbia. She doesn't have any goals for the future and treats demon hunting as simply a side hustle.",
    "image": "images/char/xochitl.png"
  },
  {
    "name": "Glitch",
    "region": "Pride",
    "element": "placeholder",
-   "bio":"A veteran demon hunter living in the Pride Region. He has skills in creating technology capable of controlling demons.",
+   "bio":"A prodigy demon hunter living in the Pride Region. He has skills in creating technology capable of controlling demons.",
    "image": "images/char/glitch.png"
  },
  {
@@ -24,14 +24,14 @@
    "name": "Akito",
    "region": "Gluttony",
    "element": "placeholder",
-   "bio":"A courier who practices archery to send messages in the region. He secretly wants to dismantle the tribute system and rebel against the demons.",
+   "bio":"A courier who practices archery to send messages to people in the region. He secretly wants to dismantle the tribute system and rebel against the demons.",
    "image": "images/char/akito.png"
  },
  {
    "name": "Freesia",
    "region": "Sloth",
    "element": "placeholder",
-   "bio":"A obedient girl with a love for fashion.",
+   "bio":"A childish girl with a love for fashion. She like pranking her friends but acts obedient arouns strangers.",
    "image": "images/char/freesia.png"
  },
  {
@@ -67,7 +67,7 @@
    "region": "Wrath",
    "element": "placeholder",
    "bio":"A short-tempered, idealistic girl who strives to be the strongest ",
-   "image": "images/char/astrid.png"
+   "image": "images/char/lime.png"
  },
  {
    "name": "Epsilon",
