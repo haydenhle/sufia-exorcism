@@ -10,8 +10,9 @@ $keywordLower = strtolower($keyword);
 // Array to store matching characters
 $matched = [];
 
-// Variable to store real region name
+// Variables to store real region name and description
 $regionName = null;
+$regionDes= null;
 
 // Find all characters whose "region" matches the url keyword
 foreach ($characters as $c) {
@@ -30,7 +31,8 @@ if (empty($matched)) {
 // find the real name of the region given the url keyword
 foreach ($regions as $r) {
     if (strtolower($r['short']) === $keywordLower) {
-        $regionName = $r['name'];   // Found the match!
+        $regionName = $r['name']; 
+        $regionDes= $r['description'];
         break;
     }
 }
@@ -45,13 +47,14 @@ if ($regionName === null) {
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Characters in <?= htmlspecialchars($regionName) ?></title>
+        <title>Characters | <?= htmlspecialchars($regionName) ?></title>
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <?php include __DIR__ . '/navbar.php'; ?>
         <main class="characters-page">
             <h1>Characters from <?= htmlspecialchars($regionName) ?></h1>
+            <p class="news-intro"><?= htmlspecialchars($regionDes) ?></p>
             <div class="character-container">
                 <?php foreach ($matched as $c): ?>
                         <div class="character-card">
