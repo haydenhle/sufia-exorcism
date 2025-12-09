@@ -52,7 +52,7 @@
                 <div class="feature-card">
                     <h3>Sin-Based Combat System</h3>
                     <p>
-                        Master seven deadly sin powers and create devastating corrupted reactions. Combine Pride, 
+                        Master seven deadly sin powers and create powerful reactions. Combine Pride, 
                         Greed, Wrath, Envy, Lust, Gluttony, and Sloth to unleash forbidden abilities and dark magic combos
                         that overwhelm demons and rival exortcists alike.
                     </p>
