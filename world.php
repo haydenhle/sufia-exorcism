@@ -40,6 +40,8 @@
             <button id="close-info">✕</button>
             <h2 id="region-name"></h2>
             <p id="region-desc"></p>
+
+            <a href="#" id="view-characters" class="btn">View Characters</a>
         </div>
     </main>
 </body>
